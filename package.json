@@ -1,0 +1,20 @@
+{
+  "name": "localstack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.363.0",
+    "@aws-sdk/client-sqs": "^3.363.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
